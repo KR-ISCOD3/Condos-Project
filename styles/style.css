@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oleo+Script:wght@400;700&family=SUSE:wght@100..800&display=swap");
+
+.suse-font {
+  font-family: "SUSE", sans-serif;
+  font-size: 15px;
+}
+.oleo-font {
+  font-family: "Oleo Script", system-ui;
+}
+
+.txt-hover:hover{
+  color: cadetblue !important; 
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.txt-hover:focus{
+  color: cadetblue !important; 
+}
+.acticle p{
+  font-size: clamp(12px,3.4vw,18px);
+}
+.acticle h1{
+  font-size: clamp(40px,6vw,70px);
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+    .acticle{
+      padding-left: 120px !important;
+    }
+}
+@media (min-width: 756px) {
+  .acticle{
+    top: 40% !important;
+    padding-left: 90px !important;
+  }
+}
+@media (min-width: 992px) {
+  .acticle{
+    top: 50% !important;
+    padding-left: 120px !important;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .offcanvas {
+    width: 85% !important;
+  }
+}
